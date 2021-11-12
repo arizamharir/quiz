@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>TOKO BUAH BAROKAH</h1>
+		<center><img src="buah.jpg"></center>
+		<h2>Form Pemesanan Buah</h2>
+		<table border="1">
+			<tr>
+				<th>No </th>
+				<th>Nama Buah</th>
+				<th>harga</th>
+				<th>Kg</th>
+			</tr>
+
+			<tr>
+				<th>1</th>
+				<th>Manggis</th>
+				<th>Rp.<input type="text" name="harga" id="manggis" size="7" value="15000" readonly></th>
+				<th>Kg<input type="number" name="jumlah_manggis" id="harga_manggis" size="7" value="0" onchange="total()"></th>
+			</tr>
+
+			<tr>
+				<th>2</th>
+				<th>Jeruk</th>
+				<th>Rp.<input type="text" name="harga" id="jeruk" size="7" value="20000" readonly></th>
+				<th>Kg<input type="number" name="jumlah_jeruk" id="harga_jeruk" size="7" value="0" onchange="total()"></th>
+			</tr>
+
+			<tr>
+				<th>3</th>
+				<th>Salak</th>
+				<th>Rp.<input type="text" name="harga" id="salak" size="7" value="18000" readonly></th>
+				<th>Kg<input type="number" name="jumlah_salak" id="harga_salak" size="7" value="0" onchange="total()"></th>
+			</tr>
+			<tr>
+				<th>4</th>
+				<th>Rambutan</th>
+				<th>Rp.<input type="text" name="harga" id="rambutan" size="7" value="15000" readonly></th>
+				<th>Kg<input type="number" name="jumlah_rambutan" id="harga_rambutan" size="7" value="0" onchange="total()"></th>
+			</tr>
+
+			<tr>
+				
+				<th colspan="3" style="text-align:left;">Jumlah Total</th>
+				<th>Rp.<input type="text" name="total_jumlah" id="total" size="7" value="" readonly></th>
+			</tr>
+		</table>
+		<br><br>
+		<center><button type="button" onclick="window.print()" value="cetak">cetak</button></center>
+		<br>
+		<br>
+		<br>
+		<script type="text/javascript" src="script.js"></script>
+	</div>
+</body>
+</html>
