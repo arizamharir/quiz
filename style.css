@@ -1,0 +1,37 @@
+.container{
+	width:650px;
+	margin: auto;
+	border: 1px dotted #blue;
+	padding: 10px;
+	color:#fff;
+}
+
+h1 {
+	text-align: center;
+	color:orange;
+	font-size: 60px;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	color:orange;
+}
+
+table{
+	background:orange;
+	margin:auto;
+	color: black; 
+}
+
+td{
+	padding: 10px
+}
+
+img{
+	height: 150px;
+}
+
+button {
+	background-color: orange;
+	color: white;
+}
